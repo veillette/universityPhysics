@@ -1,0 +1,75 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-url>https://legacy.cnx.org/content/m58746/latest/</md:content-url>
+  <md:content-id>m58746</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:version>1.9</md:version>
+  <md:created>2015/12/16 10:58:34 -0600</md:created>
+  <md:revised>2019/08/27 10:25:55.463 GMT-5</md:revised>
+  <md:actors>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    <md:person userid="cnxuniphysics">
+      <md:firstname>OpenStax</md:firstname>
+      <md:surname>University Physics</md:surname>
+      <md:fullname>OpenStax University Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxuniphysics</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Inductance</md:keyword>
+    <md:keyword>Magnetic flux</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract/>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<?cnx.eoc class="key-equations" title="Key Equations"?>
+<?cnx.eoc class="key-concepts" title="Summary"?>
+<?cnx.eoc class="review-conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="review-problems" title="Problems"?>
+<?cnx.eoc class="review-additional-problems" title="Additional Problems"?>
+<?cnx.eoc class="review-challenge" title="Challenge Problems"?>
+<?cnx.answers class="try"?>
+<?cnx.answers class="checkpoint"?>
+<?cnx.answers class="section-exercises"?>
+<?cnx.answers class="check-understanding"?>
+<figure xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="CNX_UPhysics_31_00_CO" class="splash"><media id="fs-id1167133325846" alt="Photograph of a mobile phone on top of a mat connected to a charger.">
+<image mime-type="image/jpeg" src="CNX_UPhysics_31_00_CO.jpg"/>
+</media>
+
+<caption>A smartphone charging mat contains a coil that receives alternating current, or current that is constantly increasing and decreasing. The varying current induces an emf in the smartphone, which charges its battery. Note that the black box containing the electrical plug also contains a transformer (discussed in <link document="m58483">Alternating-Current Circuits</link>) that modifies the current from the outlet to suit the needs of the smartphone. (credit: modification of work by “LG”/Flickr)</caption></figure><para id="fs-id1167133804965">In <link document="m58468">Electromagnetic Induction</link>, we discussed how a time-varying magnetic flux induces an emf in a circuit. In many of our calculations, this flux was due to an applied time-dependent magnetic field. The reverse of this phenomenon also occurs: The current flowing in a circuit produces its own magnetic field.</para>
+<para xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="fs-id1167132336033">In <link document="m58410">Electric Charges and Fields</link>, we saw that induction is the process by which an emf is induced by changing electric flux and separation of a dipole. So far, we have discussed some examples of induction, although some of these applications are more effective than others. The <term class="no-emphasis">smartphone</term> charging mat in the chapter opener photo also works by induction. Is there a useful physical quantity related to how “effective” a given device is? The answer is yes, and that physical quantity is <emphasis effect="italics">inductance</emphasis>. In this chapter, we look at the applications of inductance in electronic devices and how inductors are used in circuits.</para> </content>
+</document>

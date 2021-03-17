@@ -1,0 +1,80 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" id="new" cnxml-version="0.7" module-id="new" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m58427/latest</md:content-url>
+  <md:content-id>m58427</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:version>1.8</md:version>
+  <md:created>2015/12/13 21:44:18 -0600</md:created>
+  <md:revised>2020/10/03 17:04:26 -0500</md:revised>
+  <md:actors>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:person>
+    <md:person userid="cnxuniphysics">
+      <md:firstname>OpenStax</md:firstname>
+      <md:surname>University Physics</md:surname>
+      <md:fullname>OpenStax University Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxuniphysics</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>determining field</md:keyword>
+    <md:keyword>electric potential</md:keyword>
+    <md:keyword>potential difference</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<?cnx.eoc class="key-equations" title="Key Equations"?>
+<?cnx.eoc class="key-concepts" title="Summary"?>
+<?cnx.eoc class="review-conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="review-problems" title="Problems"?>
+<?cnx.eoc class="review-additional-problems" title="Additional Problems"?>
+<?cnx.eoc class="review-challenge" title="Challenge Problems"?>
+<?cnx.answers class="try"?>
+<?cnx.answers class="checkpoint"?>
+<?cnx.answers class="section-exercises"?>
+<?cnx.answers class="check-understanding"?>
+<figure id="CNX_UPhysics_24_00_Lightning" class="splash"><media id="fs-id1167586020810" alt="The photo shows lightning strike over several buildings.">
+<image mime-type="image/jpeg" src="CNX_UPhysics_24_00_Lightning.jpg"/>
+</media>
+
+<caption>The energy released in a lightning strike is an excellent illustration of the vast quantities of energy that may be stored and released by an electric potential difference. In this chapter, we calculate just how much energy can be released in a lightning strike and how this varies with the height of the clouds from the ground. (credit: modification of work by Anthony Quintano)</caption></figure><para id="fs-id1167585743967">In <link document="m58410">Electric Charges and Fields</link>, we just scratched the surface (or at least rubbed it) of electrical phenomena. Two terms commonly used to describe electricity are its energy and <emphasis effect="italics">voltage</emphasis>, which we show in this chapter is directly related to the potential energy in a system.</para>
+<para id="fs-id1167585859423">We know, for example, that great amounts of electrical energy can be stored in batteries, are transmitted cross-country via currents through power lines, and may jump from clouds to explode the sap of trees. In a similar manner, at the molecular level, ions cross cell membranes and transfer information.</para>
+<para id="fs-id1167585898179">We also know about voltages associated with electricity. Batteries are typically a few volts, the outlets in your home frequently produce 120 volts, and power lines can be as high as hundreds of thousands of volts. But energy and voltage are not the same thing. A motorcycle battery, for example, is small and would not be very successful in replacing a much larger car battery, yet each has the same voltage. In this chapter, we examine the relationship between voltage and electrical energy, and begin to explore some of the many applications of electricity.</para>
+ </content>
+
+</document>

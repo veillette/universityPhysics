@@ -1,0 +1,78 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m58334/latest</md:content-url>
+  <md:content-id>m58334</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:version>1.7</md:version>
+  <md:created>2015/12/13 17:12:47 -0600</md:created>
+  <md:revised>2020/09/01 17:57:30 -0500</md:revised>
+  <md:actors>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:person>
+    <md:person userid="cnxuniphysics">
+      <md:firstname>OpenStax</md:firstname>
+      <md:surname>University Physics</md:surname>
+      <md:fullname>OpenStax University Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxuniphysics</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>Angular momentum</md:keyword>
+    <md:keyword>Rolling motion</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<?cnx.eoc class="key-equations" title="Key Equations"?>
+<?cnx.eoc class="key-concepts" title="Summary"?>
+<?cnx.eoc class="review-conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="review-problems" title="Problems"?>
+<?cnx.eoc class="review-additional-problems" title="Additional Problems"?>
+<?cnx.eoc class="review-challenge" title="Challenge Problems"?>
+<?cnx.answers class="try"?>
+<?cnx.answers class="checkpoint"?>
+<?cnx.answers class="section-exercises"?>
+<?cnx.answers class="check-understanding"?>
+<figure id="CNX_UPhysics_11_00_Helicopter" class="splash">
+<media id="fs-id1165038999270" alt="Photo of helicopter in flight.">
+<image mime-type="image/jpeg" src="CNX_UPhysics_11_00_Helicopter.jpg"/>
+</media>
+<caption>A helicopter has its main lift blades rotating to keep the aircraft airborne. Due to conservation of angular momentum, the body of the helicopter would want to rotate in the opposite sense to the blades, if it were not for the small rotor on the tail of the aircraft, which provides thrust to stabilize it.</caption>
+</figure>
+<para id="fs-id1165039101533">Angular momentum is the rotational counterpart of linear momentum. Any massive object that rotates about an axis carries angular momentum, including rotating flywheels, planets, stars, hurricanes, tornadoes, whirlpools, and so on. The helicopter shown in the chapter-opening picture can be used to illustrate the concept of angular momentum. The lift blades spin about a vertical axis through the main body and carry angular momentum. The body of the helicopter tends to rotate in the opposite sense in order to conserve angular momentum. The small rotors at the tail of the aircraft provide a counter thrust against the body to prevent this from happening, and the helicopter stabilizes itself. The concept of conservation of angular momentum is discussed later in this chapter. In the main part of this chapter, we explore the intricacies of angular momentum of rigid bodies such as a top, and also of point particles and systems of particles. But to be complete, we start with a discussion of rolling motion, which builds upon the concepts of the previous chapter.</para>
+ </content>
+</document>

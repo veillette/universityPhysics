@@ -1,0 +1,80 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.7" module-id="new" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:repository>http://legacy.cnx.org/content</md:repository>
+  <md:content-url>http://legacy.cnx.org/content/m58728/latest</md:content-url>
+  <md:content-id>m58728</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:version>1.6</md:version>
+  <md:created>2015/12/16 10:25:06 -0600</md:created>
+  <md:revised>2020/08/31 11:07:40 -0500</md:revised>
+  <md:actors>
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:person>
+    <md:person userid="cnxuniphysics">
+      <md:firstname>OpenStax</md:firstname>
+      <md:surname>University Physics</md:surname>
+      <md:fullname>OpenStax University Physics</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxuniphysics</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+  </md:roles>
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  <md:keywordlist>
+    <md:keyword>electrical current</md:keyword>
+    <md:keyword>Ohm&amp;rsquo;s Law</md:keyword>
+    <md:keyword>Resistance</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Science and Technology</md:subject>
+  </md:subjectlist>
+  <md:abstract></md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+<content>
+<?cnx.eoc class="key-equations" title="Key Equations"?>
+<?cnx.eoc class="key-concepts" title="Summary"?>
+<?cnx.eoc class="review-conceptual-questions" title="Conceptual Questions"?>
+<?cnx.eoc class="review-problems" title="Problems"?>
+<?cnx.eoc class="review-additional-problems" title="Additional Problems"?>
+<?cnx.eoc class="review-challenge" title="Challenge Problems"?>
+<?cnx.answers class="try"?>
+<?cnx.answers class="checkpoint"?>
+<?cnx.answers class="section-exercises"?>
+<?cnx.answers class="check-understanding"?>
+<figure id="CNX_UPhysics_26_00_MRISuperCo" class="splash">
+<media id="fs-id1170902742744" alt="Left picture shows an image of the human spinal column taken using magnetic resonance imaging. Left picture is a photograph of the magnetic resonance imaging instrument.">
+<image mime-type="image/jpeg" src="CNX_UPhysics_26_00_MRISuperCo.jpg"/>
+</media>
+<caption>Magnetic resonance imaging (MRI) uses superconducting magnets and produces high-resolution images without the danger of radiation. The image on the left shows the spacing of vertebrae along a human spinal column, with the circle indicating where the vertebrae are too close due to a ruptured disc. On the right is a picture of the MRI instrument, which surrounds the patient on all sides. A large amount of electrical current is required to operate the electromagnets (credit right: modification of work by “digital cat”/Flickr).</caption>
+</figure>
+<para id="fs-id1170901585534">In this chapter, we study the electrical current through a material, where the electrical current is the rate of flow of charge. We also examine a characteristic of materials known as the resistance. Resistance is a measure of how much a material impedes the flow of charge, and it will be shown that the resistance depends on temperature. In general, a good conductor, such as copper, gold, or silver, has very low resistance. Some materials, called superconductors, have zero resistance at very low temperatures.</para>
+<para id="fs-id1170902794762">High currents are required for the operation of electromagnets. Superconductors can be used to make electromagnets that are 10 times stronger than the strongest conventional electromagnets. These superconducting magnets are used in the construction of magnetic resonance imaging (MRI) devices that can be used to make high-resolution images of the human body. The chapter-opening picture shows an MRI image of the vertebrae of a human subject and the MRI device itself. Superconducting magnets have many other uses. For example, superconducting magnets are used in the Large Hadron Collider (LHC) to curve the path of protons in the ring.</para>
+ </content>
+</document>

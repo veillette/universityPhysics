@@ -1,0 +1,639 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head xmlns:c="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml"><title>Stress, Strain, and Elastic Modulus</title><meta name="created-time" content="2015/12/13 17:30:11 -0600"/><meta name="revised-time" content="2020/01/09 15:35:54.679 US/Central"/><meta name="author" content="OpenStaxCollege"/><meta name="licensor" content="OSCRiceUniversity"/><meta name="license" content="http://creativecommons.org/licenses/by/4.0/"/><meta name="keywords" content="bulk modulus, bulk strain, bulk stress, compressibility, compressive strain, compressive stress, elastic modulus, normal pressure, pascal (Pa), pressure, shear modulus, shear strain, shear stress, strain, stress, tensile strain, tensile stress, volume strain, volume stress, Young&#8217;s modulus"/><meta name="subject" content="Science and Technology"/></head>
+
+<body xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:qml="http://cnx.rice.edu/qml/1.0" xmlns:mod="http://cnx.rice.edu/#moduleIds" xmlns:bib="http://bibtexml.sf.net/" xmlns:data="http://www.w3.org/TR/html5/dom.html#custom-data-attribute" xmlns:epub="http://www.idpf.org/2007/ops" data-cnxml-to-html-ver="2.1.0"><div data-type="document-title">Stress, Strain, and Elastic Modulus</div><div data-type="abstract"><p>By the end of this section, you will be able to:</p>
+<ul>
+<li>Explain the concepts of stress and strain in describing elastic deformations of materials</li>
+<li>Describe the types of elastic deformation of objects and materials</li>
+</ul></div>
+<p id="fs-id1163713173290">A model of a rigid body is an idealized example of an object that does not deform under the actions of external forces. It is very useful when analyzing mechanical systems&#8212;and many physical objects are indeed rigid to a great extent. The extent to which an object can be <em data-effect="italics">perceived</em> as rigid depends on the physical properties of the material from which it is made. For example, a ping-pong ball made of plastic is brittle, and a tennis ball made of rubber is elastic when acted upon by squashing forces. However, under other circumstances, both a ping-pong ball and a tennis ball may bounce well as rigid bodies. Similarly, someone who designs prosthetic limbs may be able to approximate the mechanics of human limbs by modeling them as rigid bodies; however, the actual combination of bones and tissues is an elastic medium.</p>
+<p id="fs-id1163713152747">For the remainder of this chapter, we move from consideration of forces that affect the motion of an object to those that affect an object&#8217;s shape. A change in shape due to the application of a force is known as a <span data-type="term" class="no-emphasis">deformation</span>. Even very small forces are known to cause some deformation. Deformation is experienced by objects or physical media under the action of external forces&#8212;for example, this may be squashing, squeezing, ripping, twisting, shearing, or pulling the objects apart. In the language of physics, two terms describe the forces on objects undergoing deformation: <em data-effect="italics">stress</em> and <em data-effect="italics">strain</em>.</p>
+<p id="fs-id1163709817608">Stress is a quantity that describes the magnitude of forces that cause deformation. Stress is generally defined as <em data-effect="italics">force per unit area</em>. When forces pull on an object and cause its elongation, like the stretching of an elastic band, we call such stress a <span data-type="term">tensile stress</span>. When forces cause a compression of an object, we call it a <span data-type="term">compressive stress</span>. When an object is being squeezed from all sides, like a submarine in the depths of an ocean, we call this kind of stress a <span data-type="term">bulk stress</span> (or <span data-type="term">volume stress</span>). In other situations, the acting forces may be neither tensile nor compressive, and still produce a noticeable deformation. For example, suppose you hold a book tightly between the palms of your hands, then with one hand you press-and-pull on the front cover away from you, while with the other hand you press-and-pull on the back cover toward you. In such a case, when deforming forces act tangentially to the object&#8217;s surface, we call them &#8216;shear&#8217; forces and the stress they cause is called <span data-type="term">shear stress</span>.</p>
+<p id="fs-id1163709705004">The SI unit of stress is the pascal (Pa). When one newton of force presses on a unit surface area of one meter squared, the resulting stress is one pascal:</p>
+<div data-type="equation" id="fs-id1163713428309" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>one pascal</mtext><mo>=</mo><mn>1.0</mn><mspace width="0.2em"/><mtext>Pa</mtext><mo>=</mo><mfrac><mrow><mn>1.0</mn><mspace width="0.2em"/><mtext>N</mtext></mrow><mrow><mn>1.0</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>one pascal</mtext><mo>=</mo><mn>1.0</mn><mspace width="0.2em"/><mtext>Pa</mtext><mo>=</mo><mfrac><mrow><mn>1.0</mn><mspace width="0.2em"/><mtext>N</mtext></mrow><mrow><mn>1.0</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713097813">In the British system of units, the unit of stress is &#8216;psi,&#8217; which stands for &#8216;pound per square inch&#8217; <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mo>(</mo><msup><mrow><mtext>lb/in</mtext></mrow><mn>2</mn></msup><mo>)</mo><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo>(</mo><msup><mrow><mtext>lb/in</mtext></mrow><mn>2</mn></msup><mo>)</mo><mo>.</mo></mrow></annotation-xml></semantics></math> Another unit that is often used for bulk stress is the atm (atmosphere). Conversion factors are</p>
+<div data-type="equation" id="fs-id1163713421708" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtable><mtr><mtd><mn>1</mn><mspace width="0.2em"/><mtext>psi</mtext><mo>=</mo><mn>6895</mn><mspace width="0.2em"/><mtext>Pa</mtext><mspace width="0.5em"/><mtext>and</mtext><mspace width="0.5em"/><mn>1</mn><mspace width="0.2em"/><mtext>Pa</mtext><mo>=</mo><mn>1.450</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>&#8722;4</mn></mrow></msup><mtext>psi</mtext></mtd></mtr><mtr><mtd><mn>1</mn><mspace width="0.2em"/><mtext>atm</mtext><mo>=</mo><mn>1.013</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mn>5</mn></msup><mtext>Pa</mtext><mo>=</mo><mn>14.7</mn><mspace width="0.2em"/><mtext>psi.</mtext></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable><mtr><mtd><mn>1</mn><mspace width="0.2em"/><mtext>psi</mtext><mo>=</mo><mn>6895</mn><mspace width="0.2em"/><mtext>Pa</mtext><mspace width="0.5em"/><mtext>and</mtext><mspace width="0.5em"/><mn>1</mn><mspace width="0.2em"/><mtext>Pa</mtext><mo>=</mo><mn>1.450</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>&#8722;4</mn></mrow></msup><mtext>psi</mtext></mtd></mtr><mtr><mtd><mn>1</mn><mspace width="0.2em"/><mtext>atm</mtext><mo>=</mo><mn>1.013</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mn>5</mn></msup><mtext>Pa</mtext><mo>=</mo><mn>14.7</mn><mspace width="0.2em"/><mtext>psi.</mtext></mtd></mtr></mtable></annotation-xml></semantics></math></div>
+<p id="fs-id1163709749578">An object or medium under stress becomes deformed. The quantity that describes this deformation is called <span data-type="term">strain</span>. Strain is given as a fractional change in either length (under tensile stress) or volume (under bulk stress) or geometry (under shear stress). Therefore, strain is a dimensionless number. Strain under a tensile stress is called <span data-type="term">tensile strain</span>, strain under bulk stress is called <span data-type="term">bulk strain</span> (or <span data-type="term">volume strain</span>), and that caused by shear stress is called <span data-type="term">shear</span> <span data-type="term">strain</span>.</p>
+<p id="fs-id1163713006766">The greater the stress, the greater the strain; however, the relation between strain and stress does not need to be linear. Only when stress is sufficiently low is the deformation it causes in direct proportion to the stress value. The proportionality constant in this relation is called the <span data-type="term">elastic</span> <span data-type="term">modulus</span>. In the linear limit of low stress values, the general relation between stress and strain is</p>
+<div data-type="note" id="fs-id1163713326594" class="equation-callout">
+<div data-type="equation" id="fs-id1163713135600"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>stress</mtext><mo>=</mo><mtext>(elastic modulus)</mtext><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><mtext>strain.</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>stress</mtext><mo>=</mo><mtext>(elastic modulus)</mtext><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><mtext>strain.</mtext></mrow></annotation-xml></semantics></math></div>
+</div>
+<p id="fs-id1163713278031">As we can see from dimensional analysis of this relation, the elastic modulus has the same physical unit as stress because strain is dimensionless.</p>
+<p id="fs-id1163713051760">We can also see from <a href="#fs-id1163713135600" class="autogenerated-content">[link]</a> that when an object is characterized by a large value of elastic modulus, the effect of stress is small. On the other hand, a small elastic modulus means that stress produces large strain and noticeable deformation. For example, a stress on a rubber band produces larger strain (deformation) than the same stress on a steel band of the same dimensions because the elastic modulus for rubber is two orders of magnitude smaller than the elastic modulus for steel.</p>
+<p id="fs-id1163713172253">The elastic modulus for tensile stress is called <span data-type="term">Young&#8217;s modulus</span>; that for the bulk stress is called the <span data-type="term">bulk modulus</span>; and that for shear stress is called the <span data-type="term">shear modulus</span>. Note that the relation between stress and strain is an <em data-effect="italics">observed</em> relation, measured in the laboratory. Elastic moduli for various materials are measured under various physical conditions, such as varying temperature, and collected in engineering data tables for reference (<a href="#fs-id1163713086230" class="autogenerated-content">[link]</a>). These tables are valuable references for industry and for anyone involved in engineering or construction. In the next section, we discuss strain-stress relations beyond the linear limit represented by <a href="#fs-id1163713135600" class="autogenerated-content">[link]</a>, in the full range of stress values up to a fracture point. In the remainder of this section, we study the linear limit expressed by <a href="#fs-id1163713135600" class="autogenerated-content">[link]</a>.</p>
+<table id="fs-id1163713086230" summary="This table has four columns and twenty five rows. The first row is a header row and it labels each column: &#8220;Material&#8221;, &#8220;Young&#8217;s Modulus in 10 at 10-th power Pa&#8221;, &#8220;Bulk Modulus in 10 at 10-th power Pa&#8221;, and &#8220;Shear Modulus in 10 at 10-th power Pa&#8221;. Under the &#8220;Material&#8221; column is the list of materials: Aluminum; Bone (tension); Bone (compression); Brass; Brick; Concrete; Copper; Crown glass; Granite; Hair (human); Hardwood; Iron; Lead; Marble; Nickel; Polystyrene; Silk; Spider thread; Steel; Acetone; Ethanol; Glycerin; Mercury; Water. Under the &#8220;Young&#8217;s Modulus&#8221; column is the list of values: 7.0; 1.6; 0.9; 90; 1.5; 2.0; 11.0; 6.0; 4.5; 1.0; 1.5; 21.0; 1.6; 6.0; 21.0; 1.6; 6.0; 21.0; 3.0; 6.0; 3.0; 20.0; blank; blank; blank; blank; blank. Under the &#8220;Bulk Modulus&#8221; column is the list of values: 7.5; 0.8; blank; 6.0; blank; blank; 14.0; 5.0; 4.5; blank; blank; 16.0; 4.1; 7.0; 17.0; blank; blank; blank; 16.0; 0.07; 0.09; 0.45; 2.5 0.22. Under the Shear Modulus&#8221; column is the list of values: 2.5; 8.0; blank; 3.5; blank; blank; 4.4; 2.5; 2.0; blank; 1.0; 7.7; 0.6; 2.0; 7.8; blank; blank; blank; 7.5; blank; blank; blank; blank; blank."><caption><span data-type="title">Approximate Elastic Moduli for Selected Materials</span></caption><thead>
+<tr valign="top">
+<th data-valign="top" data-align="center">Material</th>
+<th data-valign="top" data-align="center">Young&#8217;s modulus<span data-type="newline"><br/></span><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>10</mn></mrow></msup><mtext>Pa</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>10</mn></mrow></msup><mtext>Pa</mtext></mrow></annotation-xml></semantics></math></th>
+<th data-valign="top" data-align="center">Bulk modulus<span data-type="newline"><br/></span><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>10</mn></mrow></msup><mtext>Pa</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>10</mn></mrow></msup><mtext>Pa</mtext></mrow></annotation-xml></semantics></math></th>
+<th data-valign="top" data-align="center">Shear modulus<span data-type="newline"><br/></span><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>10</mn></mrow></msup><mtext>Pa</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>10</mn></mrow></msup><mtext>Pa</mtext></mrow></annotation-xml></semantics></math></th>
+</tr>
+</thead><tbody>
+<tr valign="top">
+<td data-valign="top" data-align="left">Aluminum</td>
+<td data-valign="top" data-align="center">7.0</td>
+<td data-valign="top" data-align="center">7.5</td>
+<td data-valign="top" data-align="center">2.5</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Bone (tension)</td>
+<td data-valign="top" data-align="center">1.6</td>
+<td data-valign="top" data-align="center">0.8</td>
+<td data-valign="top" data-align="center">8.0</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Bone (compression)</td>
+<td data-valign="top" data-align="center">0.9</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Brass</td>
+<td data-valign="top" data-align="center">9.0</td>
+<td data-valign="top" data-align="center">6.0</td>
+<td data-valign="top" data-align="center">3.5</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Brick</td>
+<td data-valign="top" data-align="center">1.5</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Concrete</td>
+<td data-valign="top" data-align="center">2.0</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Copper</td>
+<td data-valign="top" data-align="center">11.0</td>
+<td data-valign="top" data-align="center">14.0</td>
+<td data-valign="top" data-align="center">4.4</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Crown glass</td>
+<td data-valign="top" data-align="center">6.0</td>
+<td data-valign="top" data-align="center">5.0</td>
+<td data-valign="top" data-align="center">2.5</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Granite</td>
+<td data-valign="top" data-align="center">4.5</td>
+<td data-valign="top" data-align="center">4.5</td>
+<td data-valign="top" data-align="center">2.0</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Hair (human)</td>
+<td data-valign="top" data-align="center">1.0</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Hardwood</td>
+<td data-valign="top" data-align="center">1.5</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center">1.0</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Iron</td>
+<td data-valign="top" data-align="center">21.0</td>
+<td data-valign="top" data-align="center">16.0</td>
+<td data-valign="top" data-align="center">7.7</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Lead</td>
+<td data-valign="top" data-align="center">1.6</td>
+<td data-valign="top" data-align="center">4.1</td>
+<td data-valign="top" data-align="center">0.6</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Marble</td>
+<td data-valign="top" data-align="center">6.0</td>
+<td data-valign="top" data-align="center">7.0</td>
+<td data-valign="top" data-align="center">2.0</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Nickel</td>
+<td data-valign="top" data-align="center">21.0</td>
+<td data-valign="top" data-align="center">17.0</td>
+<td data-valign="top" data-align="center">7.8</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Polystyrene</td>
+<td data-valign="top" data-align="center">3.0</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Silk</td>
+<td data-valign="top" data-align="center">6.0</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Spider thread</td>
+<td data-valign="top" data-align="center">3.0</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Steel</td>
+<td data-valign="top" data-align="center">20.0</td>
+<td data-valign="top" data-align="center">16.0</td>
+<td data-valign="top" data-align="center">7.5</td>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Acetone</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center">0.07</td>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Ethanol</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center">0.09</td>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Glycerin</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center">0.45</td>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Mercury</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center">2.5</td>
+<td data-valign="top" data-align="center"/>
+</tr>
+<tr valign="top">
+<td data-valign="top" data-align="left">Water</td>
+<td data-valign="top" data-align="center"/>
+<td data-valign="top" data-align="center">0.22</td>
+<td data-valign="top" data-align="center"/>
+</tr>
+</tbody></table>
+<section data-depth="1" id="fs-id1163713129345"><h3 data-type="title">Tensile or Compressive Stress, Strain, and Young&#8217;s Modulus</h3>
+<p id="fs-id1163713148856">Tension or compression occurs when two antiparallel forces of equal magnitude act on an object along only one of its dimensions, in such a way that the object does not move. One way to envision such a situation is illustrated in <a href="#CNX_UPhysics_12_03_tensile" class="autogenerated-content">[link]</a>. A rod segment is either stretched or squeezed by a pair of forces acting along its length and perpendicular to its cross-section. The net effect of such forces is that the rod changes its length from the original length <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></annotation-xml></semantics></math> that it had before the forces appeared, to a new length <em data-effect="italics">L</em> that it has under the action of the forces. This change in length <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>L</mi><mo>=</mo><mi>L</mi><mo>&#8722;</mo><msub><mi>L</mi><mn>0</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>L</mi><mo>=</mo><mi>L</mi><mo>&#8722;</mo><msub><mi>L</mi><mn>0</mn></msub></mrow></annotation-xml></semantics></math> may be either elongation (when <em data-effect="italics">L</em> is larger than the original length <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub><mo stretchy="false">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub><mo stretchy="false">)</mo></mrow></annotation-xml></semantics></math> or contraction (when <em data-effect="italics">L</em> is smaller than the original length <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub><mo stretchy="false">)</mo><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub><mo stretchy="false">)</mo><mo>.</mo></mrow></annotation-xml></semantics></math> Tensile stress and strain occur when the forces are stretching an object, causing its elongation, and the length change <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>L</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>L</mi></mrow></annotation-xml></semantics></math> is positive. Compressive stress and strain occur when the forces are contracting an object, causing its shortening, and the length change <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>L</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>L</mi></mrow></annotation-xml></semantics></math> is negative.</p>
+<p id="fs-id1163713186886">In either of these situations, we define stress as the ratio of the deforming force <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow></annotation-xml></semantics></math> to the cross-sectional area <em data-effect="italics">A</em> of the object being deformed. The symbol <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow></annotation-xml></semantics></math> that we reserve for the deforming force means that this force acts perpendicularly to the cross-section of the object. Forces that act parallel to the cross-section do not change the length of an object. The definition of the tensile stress is</p>
+<div data-type="equation" id="fs-id1163713098779"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>tensile stress</mtext><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>tensile stress</mtext><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713201871">Tensile strain is the measure of the deformation of an object under tensile stress and is defined as the fractional change of the object&#8217;s length when the object experiences tensile stress</p>
+<div data-type="equation" id="fs-id1163713490698"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>tensile strain</mtext><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>L</mi></mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>tensile strain</mtext><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>L</mi></mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713060284">Compressive stress and strain are defined by the same formulas, <a href="#fs-id1163713098779" class="autogenerated-content">[link]</a> and <a href="#fs-id1163713490698" class="autogenerated-content">[link]</a>, respectively. The only difference from the tensile situation is that for compressive stress and strain, we take absolute values of the right-hand sides in <a href="#fs-id1163713098779" class="autogenerated-content">[link]</a> and <a href="#fs-id1163713490698" class="autogenerated-content">[link]</a>.</p>
+<figure id="CNX_UPhysics_12_03_tensile"><figcaption>When an object is in either tension or compression, the net force on it is zero, but the object deforms by changing its original length <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub><mo>.</mo></mrow></annotation-xml></semantics></math> (a) Tension: The rod is elongated by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>L</mi><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>L</mi><mo>.</mo></mrow></annotation-xml></semantics></math> (b) Compression: The rod is contracted by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>L</mi><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>L</mi><mo>.</mo></mrow></annotation-xml></semantics></math> In both cases, the deforming force acts along the length of the rod and perpendicular to its cross-section. In the linear range of low stress, the cross-sectional area of the rod does not change.</figcaption>
+<span data-type="media" id="fs-id1163709833081" data-alt="Figure A is a schematic drawing of a cylinder with a length L0 that is under the tensile strain. Two forces at the different sides of cylinder increase its length by Delta L. Figure B is a schematic drawing of a cylinder with a length L0 that is under the compressive strain. Two forces at the different sides of cylinder reduce its length by Delta L.">
+<img src="/resources/d0a3f05e8d0def89dbb676a8c7ffd9f710e9a700/CNX_UPhysics_12_03_tensile.jpg" data-media-type="image/jpeg" alt="Figure A is a schematic drawing of a cylinder with a length L0 that is under the tensile strain. Two forces at the different sides of cylinder increase its length by Delta L. Figure B is a schematic drawing of a cylinder with a length L0 that is under the compressive strain. Two forces at the different sides of cylinder reduce its length by Delta L."/>
+</span>
+
+</figure>
+<p id="fs-id1163713258776">Young&#8217;s modulus <em data-effect="italics">Y</em> is the elastic modulus when deformation is caused by either tensile or compressive stress, and is defined by <a href="#fs-id1163713135600" class="autogenerated-content">[link]</a>. Dividing this equation by tensile strain, we obtain the expression for Young&#8217;s modulus:</p>
+<div data-type="note" id="fs-id1163713128107" class="equation-callout">
+<div data-type="equation" id="fs-id1163713125336"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mi>Y</mi><mo>=</mo><mfrac><mrow><mtext>tensile stress</mtext></mrow><mrow><mtext>tensile strain</mtext></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub><mtext>/</mtext><mspace width="0.1em"/><mi>A</mi></mrow><mrow><mtext>&#916;</mtext><mi>L</mi><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mspace width="0.2em"/><mfrac><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>L</mi></mrow></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>Y</mi><mo>=</mo><mfrac><mrow><mtext>tensile stress</mtext></mrow><mrow><mtext>tensile strain</mtext></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub><mtext>/</mtext><mspace width="0.1em"/><mi>A</mi></mrow><mrow><mtext>&#916;</mtext><mi>L</mi><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mspace width="0.2em"/><mfrac><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>L</mi></mrow></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+</div>
+<div data-type="example" id="fs-id1163713246664">
+<p id="fs-id1163713434757"><span data-type="title">Compressive Stress in a Pillar</span>
+A sculpture weighing 10,000 N rests on a horizontal surface at the top of a 6.0-m-tall vertical pillar <a href="#CNX_UPhysics_12_03_Nelson" class="autogenerated-content">[link]</a>. The pillar&#8217;s cross-sectional area is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>0</mn><msup><mrow><mtext>.20 m</mtext></mrow><mn>2</mn></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>0</mn><msup><mrow><mtext>.20 m</mtext></mrow><mn>2</mn></msup></mrow></annotation-xml></semantics></math> and it is made of granite with a mass density of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msup><mrow><mn>2700</mn><mspace width="0.2em"/><mtext>kg/m</mtext></mrow><mn>3</mn></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mrow><mn>2700</mn><mspace width="0.2em"/><mtext>kg/m</mtext></mrow><mn>3</mn></msup><mo>.</mo></mrow></annotation-xml></semantics></math> Find the compressive stress at the cross-section located 3.0 m below the top of the pillar and the value of the compressive strain of the top 3.0-m segment of the pillar.</p>
+<figure id="CNX_UPhysics_12_03_Nelson"><figcaption>Nelson&#8217;s Column in Trafalgar Square, London, England. (credit: modification of work by Cristian Bortes)</figcaption>
+<span data-type="media" id="fs-id1163709780300" data-alt="Picture shows a photograph of Nelson&#8217;s Column in Trafalgar Square.">
+<img src="/resources/de9eae8883d3b53efdf04199a4d44020b9be8d09/CNX_UPhysics_12_03_Nelson.jpg" data-media-type="image/jpeg" alt="Picture shows a photograph of Nelson&#8217;s Column in Trafalgar Square."/>
+</span>
+
+</figure>
+<p id="fs-id1163713069700"><span data-type="title">Strategy</span>
+First we find the weight of the 3.0-m-long top section of the pillar. The normal force that acts on the cross-section located 3.0 m down from the top is the sum of the pillar&#8217;s weight and the sculpture&#8217;s weight. Once we have the normal force, we use <a href="#fs-id1163713098779" class="autogenerated-content">[link]</a> to find the stress. To find the compressive strain, we find the value of Young&#8217;s modulus for granite in <a href="#fs-id1163713086230" class="autogenerated-content">[link]</a> and invert <a href="#fs-id1163713125336" class="autogenerated-content">[link]</a>.</p>
+<p id="fs-id1163713437248"><span data-type="title">Solution</span>
+The volume of the pillar segment with height <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mi>h</mi><mo>=</mo><mn>3.0</mn><mspace width="0.2em"/><mtext>m</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>h</mi><mo>=</mo><mn>3.0</mn><mspace width="0.2em"/><mtext>m</mtext></mrow></annotation-xml></semantics></math> and cross-sectional area <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mi>A</mi><mo>=</mo><mn>0.20</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>A</mi><mo>=</mo><mn>0.20</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup></mrow></annotation-xml></semantics></math> is</p>
+<div data-type="equation" id="fs-id1168327958779" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mi>V</mi><mo>=</mo><mi>A</mi><mi>h</mi><mo>=</mo><mo stretchy="false">(</mo><mn>0.20</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>3.0</mn><mspace width="0.2em"/><mtext>m</mtext><mo stretchy="false">)</mo><mo>=</mo><mn>0.60</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>3</mn></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>V</mi><mo>=</mo><mi>A</mi><mi>h</mi><mo>=</mo><mo stretchy="false">(</mo><mn>0.20</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>3.0</mn><mspace width="0.2em"/><mtext>m</mtext><mo stretchy="false">)</mo><mo>=</mo><mn>0.60</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>3</mn></msup><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163709737755">With the density of granite <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mi>&#961;</mi><mo>=</mo><mn>2.7</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>kg/m</mtext></mrow><mn>3</mn></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>&#961;</mi><mo>=</mo><mn>2.7</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>kg/m</mtext></mrow><mn>3</mn></msup><mo>,</mo></mrow></annotation-xml></semantics></math> the mass of the pillar segment is</p>
+<div data-type="equation" id="fs-id1168325680415" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mi>m</mi><mo>=</mo><mi>&#961;</mi><mi>V</mi><mo>=</mo><mo stretchy="false">(</mo><mn>2.7</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>kg/m</mtext></mrow><mn>3</mn></msup><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.60</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>3</mn></msup><mo stretchy="false">)</mo><mo>=</mo><mn>1.60</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mtext>kg</mtext><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>m</mi><mo>=</mo><mi>&#961;</mi><mi>V</mi><mo>=</mo><mo stretchy="false">(</mo><mn>2.7</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>kg/m</mtext></mrow><mn>3</mn></msup><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.60</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>3</mn></msup><mo stretchy="false">)</mo><mo>=</mo><mn>1.60</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mtext>kg</mtext><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163709709169">The weight of the pillar segment is</p>
+<div data-type="equation" id="fs-id1168328186946" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><msub><mi>w</mi><mi>p</mi></msub><mo>=</mo><mi>m</mi><mi>g</mi><mo>=</mo><mo stretchy="false">(</mo><mn>1.60</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mtext>kg</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>9.80</mn><mspace width="0.2em"/><msup><mrow><mtext>m/s</mtext></mrow><mn>2</mn></msup><mo stretchy="false">)</mo><mo>=</mo><mn>1.568</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N.</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>w</mi><mi>p</mi></msub><mo>=</mo><mi>m</mi><mi>g</mi><mo>=</mo><mo stretchy="false">(</mo><mn>1.60</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mtext>kg</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>9.80</mn><mspace width="0.2em"/><msup><mrow><mtext>m/s</mtext></mrow><mn>2</mn></msup><mo stretchy="false">)</mo><mo>=</mo><mn>1.568</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N.</mtext></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713130556">The weight of the sculpture is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>w</mi><mi>s</mi></msub><mo>=</mo><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N</mtext><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>w</mi><mi>s</mi></msub><mo>=</mo><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N</mtext><mo>,</mo></mrow></annotation-xml></semantics></math> so the normal force on the cross-sectional surface located 3.0 m below the sculpture is</p>
+<div data-type="equation" id="fs-id1168328204494" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub><mo>=</mo><msub><mi>w</mi><mi>p</mi></msub><mo>+</mo><msub><mi>w</mi><mi>s</mi></msub><mo>=</mo><mo stretchy="false">(</mo><mn>1.568</mn><mo>+</mo><mn>1.0</mn><mo stretchy="false">)</mo><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N</mtext><mo>=</mo><mn>2.568</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N.</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub><mo>=</mo><msub><mi>w</mi><mi>p</mi></msub><mo>+</mo><msub><mi>w</mi><mi>s</mi></msub><mo>=</mo><mo stretchy="false">(</mo><mn>1.568</mn><mo>+</mo><mn>1.0</mn><mo stretchy="false">)</mo><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N</mtext><mo>=</mo><mn>2.568</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N.</mtext></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713245850">Therefore, the stress is</p>
+<div data-type="equation" id="fs-id1168325696172" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>stress</mtext><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mo>=</mo><mfrac><mrow><mn>2.568</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N</mtext></mrow><mrow><mn>0.20</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>1.284</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>5</mn></msup><mtext>Pa</mtext><mo>=</mo><mtext>128.4 kPa.</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>stress</mtext><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mo>=</mo><mfrac><mrow><mn>2.568</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>N</mtext></mrow><mrow><mn>0.20</mn><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>1.284</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>5</mn></msup><mtext>Pa</mtext><mo>=</mo><mtext>128.4 kPa.</mtext></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713099836">Young&#8217;s modulus for granite is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mi>Y</mi><mo>=</mo><mn>4.5</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>10</mn></mrow></msup><mtext>Pa</mtext><mo>=</mo><mn>4.5</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>7</mn></msup><mtext>kPa</mtext><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>Y</mi><mo>=</mo><mn>4.5</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>10</mn></mrow></msup><mtext>Pa</mtext><mo>=</mo><mn>4.5</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>7</mn></msup><mtext>kPa</mtext><mo>.</mo></mrow></annotation-xml></semantics></math> Therefore, the compressive strain at this position is</p>
+<div data-type="equation" id="fs-id1168327864550" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>strain</mtext><mo>=</mo><mfrac><mrow><mtext>stress</mtext></mrow><mi>Y</mi></mfrac><mo>=</mo><mfrac><mrow><mn>128.4</mn><mspace width="0.2em"/><mtext>kPa</mtext></mrow><mrow><mn>4.5</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>7</mn></msup><mtext>kPa</mtext></mrow></mfrac><mo>=</mo><mn>2.85</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;6</mn></mrow></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>strain</mtext><mo>=</mo><mfrac><mrow><mtext>stress</mtext></mrow><mi>Y</mi></mfrac><mo>=</mo><mfrac><mrow><mn>128.4</mn><mspace width="0.2em"/><mtext>kPa</mtext></mrow><mrow><mn>4.5</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>7</mn></msup><mtext>kPa</mtext></mrow></mfrac><mo>=</mo><mn>2.85</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;6</mn></mrow></msup><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713424877"><span data-type="title">Significance</span>
+Notice that the normal force acting on the cross-sectional area of the pillar is not constant along its length, but varies from its smallest value at the top to its largest value at the bottom of the pillar. Thus, if the pillar has a uniform cross-sectional area along its length, the stress is largest at its base.</p>
+</div>
+<div data-type="note" id="fs-id1163713195146" class="check-understanding">
+<div data-type="exercise" id="fs-id1163713106683">
+<div data-type="problem" id="fs-id1163713254799">
+<p id="fs-id1163713036496"><strong data-effect="bold">Check Your Understanding</strong> Find the compressive stress and strain at the base of Nelson&#8217;s column.</p>
+</div>
+<div data-type="solution" id="fs-id1163709836524">
+<p id="fs-id1163709815365"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>206.8</mn><mspace width="0.2em"/><mtext>kPa</mtext><mo>;</mo><mspace width="0.2em"/><mn>4.6</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;5</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>206.8</mn><mspace width="0.2em"/><mtext>kPa</mtext><mo>;</mo><mspace width="0.2em"/><mn>4.6</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;5</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+</div>
+</div>
+</div>
+<div data-type="example" id="fs-id1163713254716">
+<p id="fs-id1163713489652"><span data-type="title">Stretching a Rod</span>
+A 2.0-m-long steel rod has a cross-sectional area of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>0.30</mn><mspace width="0.2em"/><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>0.30</mn><mspace width="0.2em"/><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup><mo>.</mo></mrow></annotation-xml></semantics></math> The rod is a part of a vertical support that holds a heavy 550-kg platform that hangs attached to the rod&#8217;s lower end. Ignoring the weight of the rod, what is the tensile stress in the rod and the elongation of the rod under the stress?</p>
+<p id="fs-id1163713270290"><span data-type="title">Strategy</span>
+First we compute the tensile stress in the rod under the weight of the platform in accordance with <a href="#fs-id1163713098779" class="autogenerated-content">[link]</a>. Then we invert <a href="#fs-id1163713125336" class="autogenerated-content">[link]</a> to find the rod&#8217;s elongation, using <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub><mo>=</mo><mn>2.0</mn><mspace width="0.2em"/><mtext>m</mtext><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub><mo>=</mo><mn>2.0</mn><mspace width="0.2em"/><mtext>m</mtext><mo>.</mo></mrow></annotation-xml></semantics></math> From <a href="#fs-id1163713086230" class="autogenerated-content">[link]</a>, Young&#8217;s modulus for steel is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mi>Y</mi><mo>=</mo><mspace width="0.2em"/><mn>2.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>11</mn></mrow></msup><mtext>Pa</mtext><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>Y</mi><mo>=</mo><mspace width="0.2em"/><mn>2.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>11</mn></mrow></msup><mtext>Pa</mtext><mo>.</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-id1163709882591"><span data-type="title">Solution</span>
+Substituting numerical values into the equations gives us</p>
+<div data-type="equation" id="fs-id1168325756585" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtable><mtr><mtd columnalign="right"><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac></mtd><mtd columnalign="left"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mrow><mo stretchy="false">(</mo><mn>550</mn><mspace width="0.2em"/><mtext>kg</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>9.8</mn><mspace width="0.2em"/><msup><mrow><mtext>m/s</mtext></mrow><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><mrow><mn>3.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;5</mn></mrow></msup><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>1.8</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mn>8</mn></msup><mtext>Pa</mtext></mtd></mtr><mtr><mtd columnalign="right"><mtext>&#916;</mtext><mi>L</mi></mtd><mtd columnalign="left"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mspace width="0.2em"/><mfrac><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow><mi>Y</mi></mfrac><mo>=</mo><mo stretchy="false">(</mo><mn>1.8</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mn>8</mn></msup><mtext>Pa</mtext><mo stretchy="false">)</mo><mspace width="0.2em"/><mfrac><mrow><mn>2.0</mn><mspace width="0.2em"/><mtext>m</mtext></mrow><mrow><mn>2.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>11</mn></mrow></msup><mtext>Pa</mtext></mrow></mfrac><mo>=</mo><mn>1.8</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>&#8722;3</mn></mrow></msup><mtext>m</mtext><mo>=</mo><mspace width="0.2em"/><mn>1.8</mn><mspace width="0.2em"/><mtext>mm.</mtext></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable><mtr><mtd columnalign="right"><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac></mtd><mtd columnalign="left"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mrow><mo stretchy="false">(</mo><mn>550</mn><mspace width="0.2em"/><mtext>kg</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>9.8</mn><mspace width="0.2em"/><msup><mrow><mtext>m/s</mtext></mrow><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><mrow><mn>3.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;5</mn></mrow></msup><mspace width="0.2em"/><msup><mrow><mtext>m</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>1.8</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mn>8</mn></msup><mtext>Pa</mtext></mtd></mtr><mtr><mtd columnalign="right"><mtext>&#916;</mtext><mi>L</mi></mtd><mtd columnalign="left"><mo>=</mo></mtd><mtd columnalign="left"><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mspace width="0.2em"/><mfrac><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow><mi>Y</mi></mfrac><mo>=</mo><mo stretchy="false">(</mo><mn>1.8</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mn>8</mn></msup><mtext>Pa</mtext><mo stretchy="false">)</mo><mspace width="0.2em"/><mfrac><mrow><mn>2.0</mn><mspace width="0.2em"/><mtext>m</mtext></mrow><mrow><mn>2.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>11</mn></mrow></msup><mtext>Pa</mtext></mrow></mfrac><mo>=</mo><mn>1.8</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>&#8722;3</mn></mrow></msup><mtext>m</mtext><mo>=</mo><mspace width="0.2em"/><mn>1.8</mn><mspace width="0.2em"/><mtext>mm.</mtext></mtd></mtr></mtable></annotation-xml></semantics></math></div>
+<p id="fs-id1163713130016"><span data-type="title">Significance</span>
+Similarly as in the example with the column, the tensile stress in this example is not uniform along the length of the rod. Unlike in the previous example, however, if the weight of the rod is taken into consideration, the stress in the rod is largest at the top and smallest at the bottom of the rod where the equipment is attached.</p>
+</div>
+<div data-type="note" id="fs-id1163709658304" class="check-understanding">
+<div data-type="exercise" id="fs-id1163709751929">
+<div data-type="problem" id="fs-id1163709751931">
+<p id="fs-id1163713429579"><strong data-effect="bold">Check Your Understanding</strong> A 2.0-m-long wire stretches 1.0 mm when subjected to a load. What is the tensile strain in the wire?</p>
+</div>
+<div data-type="solution" id="fs-id1163713286423">
+<p id="fs-id1163713286425"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>5.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;4</mn></mrow></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>5.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;4</mn></mrow></msup></mrow></annotation-xml></semantics></math></p>
+</div>
+</div>
+</div>
+<p id="fs-id1163713244829">Objects can often experience both compressive stress and tensile stress simultaneously <a href="#CNX_UPhysics_12_03_bending" class="autogenerated-content">[link]</a>. One example is a long shelf loaded with heavy books that sags between the end supports under the weight of the books. The top surface of the shelf is in compressive stress and the bottom surface of the shelf is in tensile stress. Similarly, long and heavy beams sag under their own weight. In modern building construction, such bending strains can be almost eliminated with the use of <span data-type="term" class="no-emphasis">I-beams</span> <a href="#CNX_UPhysics_12_03_I-beam" class="autogenerated-content">[link]</a>.</p>
+<figure id="CNX_UPhysics_12_03_bending"><figcaption>(a) An object bending downward experiences tensile stress (stretching) in the upper section and compressive stress (compressing) in the lower section. (b) Elite weightlifters often bend iron bars temporarily during lifting, as in the 2012 Olympics competition. (credit b: modification of work by Oleksandr Kocherzhenko)</figcaption>
+<span data-type="media" id="fs-id1163709723867" data-alt="Figure A is a schematic drawing of forces experienced by the object during bending downward. It experiences tensile stress (stretching) in the upper section and compressive stress (compressing) in the lower section. Figure B shows a photograph of weightlifter during the lifting. The iron bar that he is holding is bent.">
+<img src="/resources/02fb047058ffe5ee6d07f35d3bdd345604639147/CNX_UPhysics_12_03_bending.jpg" data-media-type="image/jpeg" alt="Figure A is a schematic drawing of forces experienced by the object during bending downward. It experiences tensile stress (stretching) in the upper section and compressive stress (compressing) in the lower section. Figure B shows a photograph of weightlifter during the lifting. The iron bar that he is holding is bent."/>
+</span>
+
+</figure>
+<figure id="CNX_UPhysics_12_03_I-beam"><figcaption>Steel I-beams are used in construction to reduce bending strains. (credit: modification of work by &#8220;US Army Corps of Engineers Europe District&#8221;/Flickr)</figcaption>
+<span data-type="media" id="fs-id1163713203301" data-alt="Figure is a photograph of steel I-beams are used in construction.">
+<img src="/resources/8fa0870b09a3dbeeaf2aa29eca97c2afc9c38337/CNX_UPhysics_12_03_I-beam.jpg" data-media-type="image/jpeg" alt="Figure is a photograph of steel I-beams are used in construction."/>
+</span>
+
+</figure>
+<div data-type="note" id="fs-id1163713365603" class="media-2">
+<p id="fs-id1163709752460">A heavy box rests on a table supported by three columns. View this <a href="https://openstax.org/l/21movebox">demonstration</a> to move the box to see how the compression (or tension) in the columns is affected when the box changes its position.</p>
+</div>
+</section>
+<section data-depth="1" id="fs-id1163713009441"><h3 data-type="title">Bulk Stress, Strain, and Modulus</h3>
+<p id="fs-id1163713556636">When you dive into water, you feel a force pressing on every part of your body from all directions. What you are experiencing then is bulk stress, or in other words, <span data-type="term">pressure</span>. Bulk stress always tends to decrease the volume enclosed by the surface of a submerged object. The forces of this &#8220;squeezing&#8221; are always perpendicular to the submerged surface <a href="#CNX_UPhysics_12_03_volume" class="autogenerated-content">[link]</a>. The effect of these forces is to decrease the volume of the submerged object by an amount <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>V</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>V</mi></mrow></annotation-xml></semantics></math> compared with the volume <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow></annotation-xml></semantics></math> of the object in the absence of bulk stress. This kind of deformation is called bulk strain and is described by a change in volume relative to the original volume:</p>
+<div data-type="equation" id="fs-id1163709880471"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>bulk strain</mtext><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>V</mi></mrow><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>bulk strain</mtext><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>V</mi></mrow><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<figure id="CNX_UPhysics_12_03_volume"><figcaption>An object under increasing bulk stress always undergoes a decrease in its volume. Equal forces perpendicular to the surface act from all directions. The effect of these forces is to decrease the volume by the amount <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>V</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>V</mi></mrow></annotation-xml></semantics></math> compared to the original volume, <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>V</mi><mn>0</mn></msub><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>V</mi><mn>0</mn></msub><mo>.</mo></mrow></annotation-xml></semantics></math></figcaption>
+<span data-type="media" id="fs-id1163713286593" data-alt="Figure is a schematic drawing of forces experienced by an object under the bulk stress. Equal forces perpendicular to the surface act from all directions and reduce the volume by the amount delta V compared to the original volume, V0.">
+<img src="/resources/7b22dbec3968ee5634e45030764870d4c47f4810/CNX_UPhysics_12_03_volume.jpg" data-media-type="image/jpeg" alt="Figure is a schematic drawing of forces experienced by an object under the bulk stress. Equal forces perpendicular to the surface act from all directions and reduce the volume by the amount delta V compared to the original volume, V0."/>
+</span>
+
+</figure>
+<p id="fs-id1163713283449">The bulk strain results from the bulk stress, which is a force <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow></annotation-xml></semantics></math> normal to a surface that presses on the unit surface area <em data-effect="italics">A</em> of a submerged object. This kind of physical quantity, or pressure <em data-effect="italics">p</em>, is defined as</p>
+<div data-type="equation" id="fs-id1163709828123"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>pressure</mtext><mo>=</mo><mi>p</mi><mo>&#8801;</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>pressure</mtext><mo>=</mo><mi>p</mi><mo>&#8801;</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8869;</mo></msub></mrow><mi>A</mi></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713365776">We will study pressure in fluids in greater detail in <a href="/contents/77c24858-dfb6-41df-8251-fcf81f819946">Fluid Mechanics</a>. An important characteristic of pressure is that it is a scalar quantity and does not have any particular direction; that is, pressure acts equally in all possible directions. When you submerge your hand in water, you sense the same amount of pressure acting on the top surface of your hand as on the bottom surface, or on the side surface, or on the surface of the skin between your fingers. What you are perceiving in this case is an increase in pressure <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>p</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>p</mi></mrow></annotation-xml></semantics></math> over what you are used to feeling when your hand is not submerged in water. What you feel when your hand is not submerged in the water is the <span data-type="term">normal pressure</span> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>p</mi><mn>0</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>p</mi><mn>0</mn></msub></mrow></annotation-xml></semantics></math> of one atmosphere, which serves as a reference point. The bulk stress is this increase in pressure, or <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>p</mi><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>p</mi><mo>,</mo></mrow></annotation-xml></semantics></math> over the normal level, <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>p</mi><mn>0</mn></msub><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>p</mi><mn>0</mn></msub><mo>.</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-id1163713171222">When the bulk stress increases, the bulk strain increases in response, in accordance with <a href="#fs-id1163713135600" class="autogenerated-content">[link]</a>. The proportionality constant in this relation is called the bulk modulus, <em data-effect="italics">B</em>, or</p>
+<div data-type="note" id="fs-id1163713354845" class="equation-callout">
+<div data-type="equation" id="fs-id1163713354848"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mi>B</mi><mo>=</mo><mfrac><mrow><mtext>bulk stress</mtext></mrow><mrow><mtext>bulk strain</mtext></mrow></mfrac><mo>=</mo><mo>&#8722;</mo><mfrac><mrow><mtext>&#916;</mtext><mi>p</mi></mrow><mrow><mtext>&#916;</mtext><mi>V</mi><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msub><mi>V</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mtext>&#8722;</mtext><mtext>&#916;</mtext><mi>p</mi><mspace width="0.2em"/><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>V</mi></mrow></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>B</mi><mo>=</mo><mfrac><mrow><mtext>bulk stress</mtext></mrow><mrow><mtext>bulk strain</mtext></mrow></mfrac><mo>=</mo><mo>&#8722;</mo><mfrac><mrow><mtext>&#916;</mtext><mi>p</mi></mrow><mrow><mtext>&#916;</mtext><mi>V</mi><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msub><mi>V</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mtext>&#8722;</mtext><mtext>&#916;</mtext><mi>p</mi><mspace width="0.2em"/><mfrac><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>V</mi></mrow></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+</div>
+<p id="fs-id1163713246537">The minus sign that appears in <a href="#fs-id1163713354848" class="autogenerated-content">[link]</a> is for consistency, to ensure that <em data-effect="italics">B</em> is a positive quantity. Note that the minus sign <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mo>(</mo><mo>&#8211;</mo><mo>)</mo></mrow><annotation-xml encoding="MathML-Content"><mo>(</mo><mo>&#8211;</mo><mo>)</mo></annotation-xml></semantics></math> is necessary because an increase <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>p</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>p</mi></mrow></annotation-xml></semantics></math> in pressure (a positive quantity) always causes a decrease <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>V</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>V</mi></mrow></annotation-xml></semantics></math> in volume, and decrease in volume is a negative quantity. The reciprocal of the bulk modulus is called <span data-type="term">compressibility</span> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mi>k</mi><mo>,</mo></mrow><annotation-xml encoding="MathML-Content"><mi>k</mi><mo>,</mo></annotation-xml></semantics></math> or</p>
+<div data-type="equation" id="fs-id1163709658483"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mi>k</mi><mo>=</mo><mfrac><mn>1</mn><mi>B</mi></mfrac><mo>=</mo><mo>&#8722;</mo><mfrac><mrow><mtext>&#916;</mtext><mi>V</mi><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msub><mi>V</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>p</mi></mrow></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>k</mi><mo>=</mo><mfrac><mn>1</mn><mi>B</mi></mfrac><mo>=</mo><mo>&#8722;</mo><mfrac><mrow><mtext>&#916;</mtext><mi>V</mi><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msub><mi>V</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>p</mi></mrow></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163709817921">The term &#8216;compressibility&#8217; is used in relation to fluids (gases and liquids). Compressibility describes the change in the volume of a fluid per unit increase in pressure. Fluids characterized by a large compressibility are relatively easy to compress. For example, the compressibility of water is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>4.64</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;5</mn></mrow></msup><mtext>/atm</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>4.64</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;5</mn></mrow></msup><mtext>/atm</mtext></mrow></annotation-xml></semantics></math> and the compressibility of acetone is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1.45</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;4</mn></mrow></msup><mtext>/atm</mtext><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1.45</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;4</mn></mrow></msup><mtext>/atm</mtext><mo>.</mo></mrow></annotation-xml></semantics></math> This means that under a 1.0-atm increase in pressure, the relative decrease in volume is approximately three times as large for acetone as it is for water.</p>
+<div data-type="example" id="fs-id1163713123564">
+<p id="fs-id1163713143480"><span data-type="title">Hydraulic Press</span>
+In a hydraulic press <a href="#CNX_UPhysics_12_03_hydrolics" class="autogenerated-content">[link]</a>, a 250-liter volume of oil is subjected to a 2300-psi pressure increase. If the compressibility of oil is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>2.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;5</mn></mrow></msup><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><mspace width="0.1em"/><mtext>atm</mtext><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>2.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>&#8722;5</mn></mrow></msup><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><mspace width="0.1em"/><mtext>atm</mtext><mo>,</mo></mrow></annotation-xml></semantics></math> find the bulk strain and the absolute decrease in the volume of oil when the press is operating.</p>
+<figure id="CNX_UPhysics_12_03_hydrolics"><figcaption>In a hydraulic press, when a small piston is displaced downward, the pressure in the oil is transmitted throughout the oil to the large piston, causing the large piston to move upward. A small force applied to a small piston causes a large pressing force, which the large piston exerts on an object that is either lifted or squeezed. The device acts as a mechanical lever.</figcaption>
+<span data-type="media" id="fs-id1163713149955" data-alt="Figure is a schematic drawing of a hydraulic press. A small piston is displaced downward and causes the large piston holding object to move upward.">
+<img src="/resources/047c589873a390578a751814d8899402d9aea0f2/CNX_UPhysics_12_03_hydrolics.jpg" data-media-type="image/jpeg" alt="Figure is a schematic drawing of a hydraulic press. A small piston is displaced downward and causes the large piston holding object to move upward."/>
+</span>
+
+</figure>
+<p id="fs-id1163713436768"><span data-type="title">Strategy</span>
+We must invert <a href="#fs-id1163709658483" class="autogenerated-content">[link]</a> to find the bulk strain. First, we convert the pressure increase from psi to atm, <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>p</mi><mo>=</mo><mn>2300</mn><mspace width="0.2em"/><mtext>psi</mtext><mo>=</mo><mrow><mrow><mn>2300</mn></mrow><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><mrow><mn>14.7</mn></mrow></mrow><mspace width="0.2em"/><mtext>atm</mtext><mo>&#8776;</mo><mspace width="0.2em"/><mn>160</mn><mspace width="0.2em"/><mtext>atm</mtext><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>p</mi><mo>=</mo><mn>2300</mn><mspace width="0.2em"/><mtext>psi</mtext><mo>=</mo><mrow><mrow><mn>2300</mn></mrow><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><mrow><mn>14.7</mn></mrow></mrow><mspace width="0.2em"/><mtext>atm</mtext><mo>&#8776;</mo><mspace width="0.2em"/><mn>160</mn><mspace width="0.2em"/><mtext>atm</mtext><mo>,</mo></mrow></annotation-xml></semantics></math> and identify <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>V</mi><mn>0</mn></msub><mo>=</mo><mspace width="0.2em"/><mn>250</mn><mspace width="0.2em"/><mtext>L</mtext><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>V</mi><mn>0</mn></msub><mo>=</mo><mspace width="0.2em"/><mn>250</mn><mspace width="0.2em"/><mtext>L</mtext><mo>.</mo></mrow></annotation-xml></semantics></math></p>
+<p id="fs-id1163713271102"><span data-type="title">Solution</span>
+Substituting values into the equation, we have</p>
+<div data-type="equation" id="fs-id1168327948380" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtable><mtr/><mtr/><mtr><mtd columnalign="left"><mtext>bulk strain</mtext><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>V</mi></mrow><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>p</mi></mrow><mi>B</mi></mfrac><mo>=</mo><mi>k</mi><mtext>&#916;</mtext><mi>p</mi><mo>=</mo><mo stretchy="false">(</mo><mn>2.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>&#8722;5</mn></mrow></msup><mtext>/atm</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>160</mn><mspace width="0.2em"/><mtext>atm</mtext><mo stretchy="false">)</mo><mo>=</mo><mn>0.0032</mn></mtd></mtr><mtr><mtd columnalign="left"><mtext>answer:</mtext><mspace width="0.5em"/><mtext>&#916;</mtext><mi>V</mi><mo>=</mo><mn>0.0032</mn><mspace width="0.2em"/><msub><mi>V</mi><mn>0</mn></msub><mo>=</mo><mn>0.0032</mn><mo stretchy="false">(</mo><mn>250</mn><mspace width="0.2em"/><mtext>L</mtext><mo stretchy="false">)</mo><mo>=</mo><mn>0.78</mn><mspace width="0.2em"/><mtext>L.</mtext></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable><mtr/><mtr/><mtr><mtd columnalign="left"><mtext>bulk strain</mtext><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>V</mi></mrow><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>p</mi></mrow><mi>B</mi></mfrac><mo>=</mo><mi>k</mi><mtext>&#916;</mtext><mi>p</mi><mo>=</mo><mo stretchy="false">(</mo><mn>2.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mn>10</mn><mrow><mn>&#8722;5</mn></mrow></msup><mtext>/atm</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>160</mn><mspace width="0.2em"/><mtext>atm</mtext><mo stretchy="false">)</mo><mo>=</mo><mn>0.0032</mn></mtd></mtr><mtr><mtd columnalign="left"><mtext>answer:</mtext><mspace width="0.5em"/><mtext>&#916;</mtext><mi>V</mi><mo>=</mo><mn>0.0032</mn><mspace width="0.2em"/><msub><mi>V</mi><mn>0</mn></msub><mo>=</mo><mn>0.0032</mn><mo stretchy="false">(</mo><mn>250</mn><mspace width="0.2em"/><mtext>L</mtext><mo stretchy="false">)</mo><mo>=</mo><mn>0.78</mn><mspace width="0.2em"/><mtext>L.</mtext></mtd></mtr></mtable></annotation-xml></semantics></math></div>
+<p id="fs-id1163713129793"><span data-type="title">Significance</span>
+Notice that since the compressibility of water is 2.32 times larger than that of oil, if the working substance in the hydraulic press of this problem were changed to water, the bulk strain as well as the volume change would be 2.32 times larger.</p>
+</div>
+<div data-type="note" id="fs-id1163713514830" class="check-understanding">
+<div data-type="exercise" id="fs-id1163713090726">
+<div data-type="problem" id="fs-id1163713090729">
+<p id="fs-id1163713090731"><strong data-effect="bold">Check Your Understanding</strong> If the normal force acting on each face of a cubical <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1</mn><msup><mrow><mtext>.0-m</mtext></mrow><mn>3</mn></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1</mn><msup><mrow><mtext>.0-m</mtext></mrow><mn>3</mn></msup></mrow></annotation-xml></semantics></math> piece of steel is changed by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>7</mn></msup><mtext>N</mtext><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>7</mn></msup><mtext>N</mtext><mo>,</mo></mrow></annotation-xml></semantics></math> find the resulting change in the volume of the piece of steel.</p>
+</div>
+<div data-type="solution" id="fs-id1163713080974">
+<p id="fs-id1163713080977">63 mL</p>
+</div>
+</div>
+</div>
+</section>
+<section data-depth="1" id="fs-id1163709751944"><h3 data-type="title">Shear Stress, Strain, and Modulus</h3>
+<p id="fs-id1163709751949">The concepts of shear stress and strain concern only solid objects or materials. Buildings and tectonic plates are examples of objects that may be subjected to shear stresses. In general, these concepts do not apply to fluids.</p>
+<p id="fs-id1163713488175">Shear deformation occurs when two antiparallel forces of equal magnitude are applied tangentially to opposite surfaces of a solid object, causing no deformation in the transverse direction to the line of force, as in the typical example of shear stress illustrated in <a href="#CNX_UPhysics_12_03_shear" class="autogenerated-content">[link]</a>. Shear deformation is characterized by a gradual shift <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></annotation-xml></semantics></math> of layers in the direction tangent to the acting forces. This gradation in <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></annotation-xml></semantics></math> occurs in the transverse direction along some distance <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub><mo>.</mo></mrow></annotation-xml></semantics></math> Shear strain is defined by the ratio of the largest displacement <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></annotation-xml></semantics></math> to the transverse distance <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></annotation-xml></semantics></math></p>
+<div data-type="equation" id="fs-id1163713548282"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>shear strain</mtext><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>x</mi></mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>shear strain</mtext><mo>=</mo><mfrac><mrow><mtext>&#916;</mtext><mi>x</mi></mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713243964">Shear strain is caused by shear stress. Shear stress is due to forces that act <em data-effect="italics">parallel</em> to the surface. We use the symbol <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow></annotation-xml></semantics></math> for such forces. The magnitude <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow></annotation-xml></semantics></math> per surface area <em data-effect="italics">A</em> where shearing force is applied is the measure of shear stress</p>
+<div data-type="equation" id="fs-id1163713490507"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mtext>shear stress</mtext><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow><mi>A</mi></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>shear stress</mtext><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow><mi>A</mi></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713086239">The shear modulus is the proportionality constant in <a href="#fs-id1163713135600" class="autogenerated-content">[link]</a> and is defined by the ratio of stress to strain. Shear modulus is commonly denoted by <em data-effect="italics">S</em>:</p>
+<div data-type="note" id="fs-id1163709646547" class="equation-callout">
+<div data-type="equation" id="fs-id1163713265048"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mi>S</mi><mo>=</mo><mfrac><mrow><mtext>shear stress</mtext></mrow><mrow><mtext>shear strain</mtext></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub><mtext>/</mtext><mspace width="0.1em"/><mi>A</mi></mrow><mrow><mtext>&#916;</mtext><mi>x</mi><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow><mi>A</mi></mfrac><mspace width="0.2em"/><mfrac><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></mfrac><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>S</mi><mo>=</mo><mfrac><mrow><mtext>shear stress</mtext></mrow><mrow><mtext>shear strain</mtext></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub><mtext>/</mtext><mspace width="0.1em"/><mi>A</mi></mrow><mrow><mtext>&#916;</mtext><mi>x</mi><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow><mi>A</mi></mfrac><mspace width="0.2em"/><mfrac><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></mfrac><mo>.</mo></mrow></annotation-xml></semantics></math></div>
+</div>
+<figure id="CNX_UPhysics_12_03_shear"><figcaption>An object under shear stress: Two antiparallel forces of equal magnitude are applied tangentially to opposite parallel surfaces of the object. The dashed-line contour depicts the resulting deformation. There is no change in the direction transverse to the acting forces and the transverse length <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></annotation-xml></semantics></math> is unaffected. Shear deformation is characterized by a gradual shift <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></annotation-xml></semantics></math> of layers in the direction tangent to the forces.</figcaption>
+<span data-type="media" id="fs-id1163709882516" data-alt="Figure is a schematic drawing of an object under shear stress: Two antiparallel forces of equal magnitude are applied tangentially to opposite parallel surfaces of the object. As the result, the object is transformed from the rectangle to the parallelogram, shape. While the height of the object remains the same, top corners move to the right by the Delta X.">
+<img src="/resources/e6760d57a47714f12671a5bd2d500f9a5b28c9f7/CNX_UPhysics_12_03_shear.jpg" data-media-type="image/jpeg" alt="Figure is a schematic drawing of an object under shear stress: Two antiparallel forces of equal magnitude are applied tangentially to opposite parallel surfaces of the object. As the result, the object is transformed from the rectangle to the parallelogram, shape. While the height of the object remains the same, top corners move to the right by the Delta X."/>
+</span>
+
+</figure>
+<div data-type="example" id="fs-id1163713088242">
+<p id="fs-id1163709681439"><span data-type="title">An Old Bookshelf</span>
+A cleaning person tries to move a heavy, old bookcase on a carpeted floor by pushing tangentially on the surface of the very top shelf. However, the only noticeable effect of this effort is similar to that seen in <a href="#CNX_UPhysics_12_03_shear" class="autogenerated-content">[link]</a>, and it disappears when the person stops pushing. The bookcase is 180.0 cm tall and 90.0 cm wide with four 30.0-cm-deep shelves, all partially loaded with books. The total weight of the bookcase and books is 600.0 N. If the person gives the top shelf a 50.0-N push that displaces the top shelf horizontally by 15.0 cm relative to the motionless bottom shelf, find the shear modulus of the bookcase.</p>
+<p id="fs-id1163713263532"><span data-type="title">Strategy</span>
+The only pieces of relevant information are the physical dimensions of the bookcase, the value of the tangential force, and the displacement this force causes. We identify <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub><mo>=</mo><mn>50.0</mn><mspace width="0.2em"/><mtext>N</mtext><mo>,</mo><mspace width="0.2em"/><mtext>&#916;</mtext><mi>x</mi><mo>=</mo><mn>15.0</mn><mspace width="0.2em"/><mtext>cm</mtext><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub><mo>=</mo><mn>50.0</mn><mspace width="0.2em"/><mtext>N</mtext><mo>,</mo><mspace width="0.2em"/><mtext>&#916;</mtext><mi>x</mi><mo>=</mo><mn>15.0</mn><mspace width="0.2em"/><mtext>cm</mtext><mo>,</mo></mrow></annotation-xml></semantics></math> <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msub><mi>L</mi><mn>0</mn></msub><mo>=</mo><mn>180.0</mn><mspace width="0.2em"/><mtext>cm</mtext><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msub><mi>L</mi><mn>0</mn></msub><mo>=</mo><mn>180.0</mn><mspace width="0.2em"/><mtext>cm</mtext><mo>,</mo></mrow></annotation-xml></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mi>A</mi><mo>=</mo><mtext>(30.0 cm)</mtext><mspace width="0.1em"/><mtext>(90.0 cm)</mtext><mo>=</mo><mn>2700.0</mn><mspace width="0.2em"/><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>A</mi><mo>=</mo><mtext>(30.0 cm)</mtext><mspace width="0.1em"/><mtext>(90.0 cm)</mtext><mo>=</mo><mn>2700.0</mn><mspace width="0.2em"/><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup><mo>,</mo></mrow></annotation-xml></semantics></math> and we use <a href="#fs-id1163713265048" class="autogenerated-content">[link]</a> to compute the shear modulus.</p>
+<p id="fs-id1163709733376"><span data-type="title">Solution</span>
+Substituting numbers into the equations, we obtain for the shear modulus</p>
+<div data-type="equation" id="fs-id1168325703867" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mi>S</mi><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow><mi>A</mi></mfrac><mspace width="0.2em"/><mfrac><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>50.0</mn><mspace width="0.2em"/><mtext>N</mtext></mrow><mrow><mn>2700.0</mn><mspace width="0.2em"/><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mspace width="0.2em"/><mfrac><mrow><mn>180.0</mn><mspace width="0.2em"/><mtext>cm</mtext><mtext>.</mtext></mrow><mrow><mn>15.0</mn><mspace width="0.2em"/><mtext>cm</mtext><mtext>.</mtext></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mspace width="0.2em"/><mfrac><mtext>N</mtext><mrow><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mfrac><mtext>N</mtext><mrow><msup><mtext>m</mtext><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>20</mn></mrow><mn>9</mn></mfrac><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mtext>Pa</mtext><mo>=</mo><mtext>2.222 kPa.</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>S</mi><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow><mi>A</mi></mfrac><mspace width="0.2em"/><mfrac><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow><mrow><mtext>&#916;</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>50.0</mn><mspace width="0.2em"/><mtext>N</mtext></mrow><mrow><mn>2700.0</mn><mspace width="0.2em"/><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mspace width="0.2em"/><mfrac><mrow><mn>180.0</mn><mspace width="0.2em"/><mtext>cm</mtext><mtext>.</mtext></mrow><mrow><mn>15.0</mn><mspace width="0.2em"/><mtext>cm</mtext><mtext>.</mtext></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mspace width="0.2em"/><mfrac><mtext>N</mtext><mrow><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mfrac><mtext>N</mtext><mrow><msup><mtext>m</mtext><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>20</mn></mrow><mn>9</mn></mfrac><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mtext>Pa</mtext><mo>=</mo><mtext>2.222 kPa.</mtext></mrow></annotation-xml></semantics></math></div>
+<p id="fs-id1163713163823">We can also find shear stress and strain, respectively:</p>
+<div data-type="equation" id="fs-id1168328304167" class="unnumbered" data-label=""><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtable><mtr><mtd columnalign="left"><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow><mi>A</mi></mfrac><mo>=</mo><mfrac><mrow><mn>50.0</mn><mspace width="0.2em"/><mtext>N</mtext></mrow><mrow><mn>2700.0</mn><mspace width="0.2em"/><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mrow><mn>27</mn></mrow></mfrac><mspace width="0.2em"/><mtext>kPa</mtext><mo>=</mo><mtext>185.2 Pa</mtext></mtd></mtr><mtr><mtd columnalign="left"><mfrac><mrow><mtext>&#916;</mtext><mi>x</mi></mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>15.0</mn><mspace width="0.2em"/><mtext>cm</mtext></mrow><mrow><mn>180.0</mn><mspace width="0.2em"/><mtext>cm</mtext></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>12</mn></mrow></mfrac><mo>=</mo><mn>0.083</mn><mo>.</mo></mtd></mtr></mtable></mrow><annotation-xml encoding="MathML-Content"><mtable><mtr><mtd columnalign="left"><mfrac><mrow><msub><mi>F</mi><mo>&#8741;</mo></msub></mrow><mi>A</mi></mfrac><mo>=</mo><mfrac><mrow><mn>50.0</mn><mspace width="0.2em"/><mtext>N</mtext></mrow><mrow><mn>2700.0</mn><mspace width="0.2em"/><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mrow><mn>27</mn></mrow></mfrac><mspace width="0.2em"/><mtext>kPa</mtext><mo>=</mo><mtext>185.2 Pa</mtext></mtd></mtr><mtr><mtd columnalign="left"><mfrac><mrow><mtext>&#916;</mtext><mi>x</mi></mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>15.0</mn><mspace width="0.2em"/><mtext>cm</mtext></mrow><mrow><mn>180.0</mn><mspace width="0.2em"/><mtext>cm</mtext></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>12</mn></mrow></mfrac><mo>=</mo><mn>0.083</mn><mo>.</mo></mtd></mtr></mtable></annotation-xml></semantics></math></div>
+<p id="fs-id1163713072260"><span data-type="title">Significance</span>
+If the person in this example gave the shelf a healthy push, it might happen that the induced shear would collapse it to a pile of rubbish. Much the same shear mechanism is responsible for failures of earth-filled dams and levees; and, in general, for landslides.</p>
+</div>
+<div data-type="note" id="fs-id1163709661853" class="check-understanding">
+<div data-type="exercise" id="fs-id1163713161722">
+<div data-type="problem" id="fs-id1163713161724">
+<p id="fs-id1163713161726"><strong data-effect="bold">Check Your Understanding</strong> Explain why the concepts of Young&#8217;s modulus and shear modulus do not apply to fluids.</p>
+</div>
+<div data-type="solution" id="fs-id1163713558669">
+<p id="fs-id1163713558671">Fluids have different mechanical properties than those of solids; fluids flow.</p>
+</div>
+</div>
+</div>
+</section>
+<section data-depth="1" id="fs-id1163713487603" class="key-concepts"><h3 data-type="title">Summary</h3>
+<ul id="fs-id1163709830870" data-bullet-style="bullet">
+<li>External forces on an object (or medium) cause its deformation, which is a change in its size and shape. The strength of the forces that cause deformation is expressed by stress, which in SI units is measured in the unit of pressure (pascal). The extent of deformation under stress is expressed by strain, which is dimensionless.</li>
+<li>For a small stress, the relation between stress and strain is linear. The elastic modulus is the proportionality constant in this linear relation.</li>
+<li>Tensile (or compressive) strain is the response of an object or medium to tensile (or compressive) stress. Here, the elastic modulus is called Young&#8217;s modulus. Tensile (or compressive) stress causes elongation (or shortening) of the object or medium and is due to an external forces acting along only one direction perpendicular to the cross-section.</li>
+<li>Bulk strain is the response of an object or medium to bulk stress. Here, the elastic modulus is called the bulk modulus. Bulk stress causes a change in the volume of the object or medium and is caused by forces acting on the body from all directions, perpendicular to its surface. Compressibility of an object or medium is the reciprocal of its bulk modulus.</li>
+<li>Shear strain is the deformation of an object or medium under shear stress. The shear modulus is the elastic modulus in this case. Shear stress is caused by forces acting along the object&#8217;s two parallel surfaces.</li>
+</ul>
+</section>
+<section data-depth="1" id="fs-id1163713490871" class="review-conceptual-questions"><h3 data-type="title">Conceptual Questions</h3>
+<p id="fs-id1163713328471"><em data-effect="italics">Note:</em> Unless stated otherwise, the weights of the wires, rods, and other elements are assumed to be negligible. Elastic moduli of selected materials are given in <a href="/contents/df6759c4-a5c0-44d7-afa4-0069da3b6651#fs-id1163713086230" class="autogenerated-content">[link]</a>.</p>
+<div data-type="exercise" id="fs-id1163713200108">
+<div data-type="problem" id="fs-id1163713200111">
+<p id="fs-id1163713200113">Why can a squirrel jump from a tree branch to the ground and run away undamaged, while a human could break a bone in such a fall?</p>
+</div>
+<div data-type="solution" id="fs-id1163713160498">
+<p id="fs-id1163713160500">In contact with the ground, stress in squirrel&#8217;s limbs is smaller than stress in human&#8217;s limbs.</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713355204">
+<div data-type="problem" id="fs-id1163713355206">
+<p id="fs-id1163713355208">When a glass bottle full of vinegar warms up, both the vinegar and the glass expand, but the vinegar expands significantly more with temperature than does the glass. The bottle will break if it is filled up to its very tight cap. Explain why and how a pocket of air above the vinegar prevents the bottle from breaking.</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713171026">
+<div data-type="problem" id="fs-id1163713171028">
+<p id="fs-id1163713171030">A thin wire strung between two nails in the wall is used to support a large picture. Is the wire likely to snap if it is strung tightly or if it is strung so that it sags considerably?</p>
+</div>
+<div data-type="solution" id="fs-id1163713201312">
+<p id="fs-id1163713521027">tightly</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713521033">
+<div data-type="problem" id="fs-id1163709783571">
+<p id="fs-id1163709783573">Review the relationship between stress and strain. Can you find any similarities between the two quantities?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713194306">
+<div data-type="problem" id="fs-id1163713194308">
+<p id="fs-id1163713156022">What type of stress are you applying when you press on the ends of a wooden rod? When you pull on its ends?</p>
+</div>
+<div data-type="solution" id="fs-id1163713296478">
+<p id="fs-id1163713296480">compressive; tensile</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713427998">
+<div data-type="problem" id="fs-id1163713428000">
+<p id="fs-id1163713428002">Can compressive stress be applied to a rubber band?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713195592">
+<div data-type="problem" id="fs-id1163713277163">
+<p id="fs-id1163713277165">Can Young&#8217;s modulus have a negative value? What about the bulk modulus?</p>
+</div>
+<div data-type="solution" id="fs-id1163713263717">
+<p id="fs-id1163713263719">no</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709874098">
+<div data-type="problem" id="fs-id1163709874100">
+<p id="fs-id1163713051720">If a hypothetical material has a negative bulk modulus, what happens when you squeeze a piece of it?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713166159">
+<div data-type="problem" id="fs-id1163713166162">
+<p id="fs-id1163713166164">Discuss how you might measure the bulk modulus of a liquid.</p>
+</div>
+</div>
+</section>
+<section data-depth="1" id="fs-id1163709682984" class="review-problems"><h3 data-type="title">Problems</h3>
+<div data-type="exercise" id="fs-id1163713162478">
+<div data-type="problem" id="fs-id1163709673462">
+<p id="fs-id1163709673464">The &#8220;lead&#8221; in pencils is a graphite composition with a Young&#8217;s modulus of approximately <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>9</mn></msup><mrow><mtext>N</mtext><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><mrow><msup><mtext>m</mtext><mn>2</mn></msup></mrow></mrow><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>9</mn></msup><mrow><mtext>N</mtext><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><mrow><msup><mtext>m</mtext><mn>2</mn></msup></mrow></mrow><mo>.</mo></mrow></annotation-xml></semantics></math> Calculate the change in length of the lead in an automatic pencil if you tap it straight into the pencil with a force of 4.0 N. The lead is 0.50 mm in diameter and 60 mm long.</p>
+</div>
+<div data-type="solution" id="fs-id1163709736795">
+<p id="fs-id1163709704982">1.2 mm</p></div>
+</div>
+<div data-type="exercise" id="fs-id1163709704987">
+<div data-type="problem" id="fs-id1163709668462">
+<p id="fs-id1163709668464">TV broadcast antennas are the tallest artificial structures on Earth. In 1987, a 72.0-kg physicist placed himself and 400 kg of equipment at the top of a 610-m-high antenna to perform gravity experiments. By how much was the antenna compressed, if we consider it to be equivalent to a steel cylinder 0.150 m in radius?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709704702">
+<div data-type="problem" id="fs-id1163713277954">
+<p id="fs-id1163713277956">By how much does a 65.0-kg mountain climber stretch her 0.800-cm diameter nylon rope when she hangs 35.0 m below a rock outcropping? (For nylon, <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mi>Y</mi><mo>=</mo><mn>1.35</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>9</mn></msup><mtext>Pa</mtext><mtext>.)</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>Y</mi><mo>=</mo><mn>1.35</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>9</mn></msup><mtext>Pa</mtext><mtext>.)</mtext></mrow></annotation-xml></semantics></math></p>
+</div>
+<div data-type="solution" id="fs-id1163709830348">
+<p id="fs-id1163709830350">32.9 cm</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709817998">
+<div data-type="problem" id="fs-id1163709818000">
+<p id="fs-id1163709827122">When water freezes, its volume increases by 9.05%. What force per unit area is water capable of exerting on a container when it freezes?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709757961">
+<div data-type="problem" id="fs-id1163709757963">
+<p id="fs-id1163709757965">A farmer making grape juice fills a glass bottle to the brim and caps it tightly. The juice expands more than the glass when it warms up, in such a way that the volume increases by 0.2%. Calculate the force exerted by the juice per square centimeter if its bulk modulus is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1.8</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><mn>1</mn><msup><mn>0</mn><mn>9</mn></msup><mtext>N</mtext><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msup><mtext>m</mtext><mn>2</mn></msup><mo>,</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1.8</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><mn>1</mn><msup><mn>0</mn><mn>9</mn></msup><mtext>N</mtext><mspace width="0.1em"/><mtext>/</mtext><mspace width="0.1em"/><msup><mtext>m</mtext><mn>2</mn></msup><mo>,</mo></mrow></annotation-xml></semantics></math> assuming the bottle does not break.</p></div>
+<div data-type="solution" id="fs-id1163709680492">
+<p id="fs-id1163713186232"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>4.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>2</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>N/cm</mtext></mrow><mn>2</mn></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>4.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>2</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>N/cm</mtext></mrow><mn>2</mn></msup></mrow></annotation-xml></semantics></math>
+
+</p></div>
+</div>
+<div data-type="exercise" id="fs-id1163713254086">
+<div data-type="problem" id="fs-id1163713254088">
+<p id="fs-id1163713254090">A disk between vertebrae in the spine is subjected to a shearing force of 600.0 N. Find its shear deformation, using the shear modulus of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><mn>1</mn><msup><mn>0</mn><mn>9</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>N/m</mtext></mrow><mn>2</mn></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><mn>1</mn><msup><mn>0</mn><mn>9</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>N/m</mtext></mrow><mn>2</mn></msup><mo>.</mo></mrow></annotation-xml></semantics></math> The disk is equivalent to a solid cylinder 0.700 cm high and 4.00 cm in diameter.</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709668352">
+<div data-type="problem" id="fs-id1163709668354">
+<p id="fs-id1163709668356">A vertebra is subjected to a shearing force of 500.0 N. Find the shear deformation, taking the vertebra to be a cylinder 3.00 cm high and 4.00 cm in diameter. How does your result compare with the result obtained in the preceding problem? Are spinal problems more common in disks than in vertebrae?</p>
+</div>
+<div data-type="solution" id="fs-id1163713274089">
+<p id="fs-id1163709882428"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>0.149</mn><mspace width="0.2em"/><mtext>&#956;m</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>0.149</mn><mspace width="0.2em"/><mtext>&#956;m</mtext></mrow></annotation-xml></semantics></math></p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713350246">
+<div data-type="problem" id="fs-id1163709750810">
+<p id="fs-id1163709750813">Calculate the force a piano tuner applies to stretch a steel piano wire by 8.00 mm, if the wire is originally 1.35 m long and its diameter is 0.850 mm.</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713264893">
+<div data-type="problem" id="fs-id1163713251791">
+<p id="fs-id1163713251793">A 20.0-m-tall hollow aluminum flagpole is equivalent in strength to a solid cylinder 4.00 cm in diameter. A strong wind bends the pole as much as a horizontal 900.0-N force on the top would do. How far to the side does the top of the pole flex?</p>
+</div>
+<div data-type="solution" id="fs-id1163709733857">
+<p id="fs-id1163709733859">0.57 mm</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713163366">
+<div data-type="problem" id="fs-id1163713163368">
+<p id="fs-id1163709676768">A copper wire of diameter 1.0 cm stretches 1.0% when it is used to lift a load upward with an acceleration of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>2.0</mn><mspace width="0.2em"/><msup><mrow><mtext>m/s</mtext></mrow><mn>2</mn></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>2.0</mn><mspace width="0.2em"/><msup><mrow><mtext>m/s</mtext></mrow><mn>2</mn></msup><mo>.</mo></mrow></annotation-xml></semantics></math> What is the weight of the load?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709879200">
+<div data-type="problem" id="fs-id1163709879202">
+<p id="fs-id1163713267254">As an oil well is drilled, each new section of drill pipe supports its own weight and the weight of the pipe and the drill bit beneath it. Calculate the stretch in a new 6.00-m-long steel pipe that supports a 100-kg drill bit and a 3.00-km length of pipe with a linear mass density of 20.0 kg/m. Treat the pipe as a solid cylinder with a 5.00-cm diameter.</p>
+</div>
+<div data-type="solution" id="fs-id1163713356867">
+<p id="fs-id1163713356869">8.59 mm</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713070452">
+<div data-type="problem" id="fs-id1163713070454">
+<p id="fs-id1163709825189">A large uniform cylindrical steel rod of density <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mi>&#961;</mi><mo>=</mo><mn>7.8</mn><mspace width="0.2em"/><msup><mrow><mtext>g/cm</mtext></mrow><mn>3</mn></msup></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>&#961;</mi><mo>=</mo><mn>7.8</mn><mspace width="0.2em"/><msup><mrow><mtext>g/cm</mtext></mrow><mn>3</mn></msup></mrow></annotation-xml></semantics></math> is 2.0 m long and has a diameter of 5.0 cm. The rod is fastened to a concrete floor with its long axis vertical. What is the normal stress in the rod at the cross-section located at (a) 1.0 m from its lower end? (b) 1.5 m from the lower end?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713526118">
+<div data-type="problem" id="fs-id1163713526120">
+<p id="fs-id1163713526123">A 90-kg mountain climber hangs from a nylon rope and stretches it by 25.0 cm. If the rope was originally 30.0 m long and its diameter is 1.0 cm, what is Young&#8217;s modulus for the nylon?</p>
+</div>
+<div data-type="solution" id="fs-id1163709646172">
+<p id="fs-id1163709646174"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1.35</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>9</mn></msup><mtext>Pa</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1.35</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>9</mn></msup><mtext>Pa</mtext></mrow></annotation-xml></semantics></math></p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709667698">
+<div data-type="problem" id="fs-id1163709667700">
+<p id="fs-id1163713294166">A suspender rod of a suspension bridge is 25.0 m long. If the rod is made of steel, what must its diameter be so that it does not stretch more than 1.0 cm when a <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>2.5</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>-kg</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>2.5</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>4</mn></msup><mtext>-kg</mtext></mrow></annotation-xml></semantics></math> truck passes by it? Assume that the rod supports all of the weight of the truck.</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709733622">
+<div data-type="problem" id="fs-id1163709733624">
+<p id="fs-id1163713277900">A copper wire is 1.0 m long and its diameter is 1.0 mm. If the wire hangs vertically, how much weight must be added to its free end in order to stretch it 3.0 mm?</p>
+</div>
+<div data-type="solution" id="fs-id1163713527113">
+<p id="fs-id1163713527115">259.0 N</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713429616">
+<div data-type="problem" id="fs-id1163713429619">
+<p id="fs-id1163713429621">A 100-N weight is attached to a free end of a metallic wire that hangs from the ceiling. When a second 100-N weight is added to the wire, it stretches 3.0 mm. The diameter and the length of the wire are 1.0 mm and 2.0 m, respectively. What is Young&#8217;s modulus of the metal used to manufacture the wire?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709653876">
+<div data-type="problem" id="fs-id1163713265707">
+<p id="fs-id1163713265709">The bulk modulus of a material is <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>11</mn></mrow></msup><mspace width="0.2em"/><msup><mrow><mtext>N/m</mtext></mrow><mn>2</mn></msup><mo>.</mo></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mrow><mn>11</mn></mrow></msup><mspace width="0.2em"/><msup><mrow><mtext>N/m</mtext></mrow><mn>2</mn></msup><mo>.</mo></mrow></annotation-xml></semantics></math> What fractional change in volume does a piece of this material undergo when it is subjected to a bulk stress increase of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><msup><mrow><mn>10</mn></mrow><mn>7</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>N/m</mtext></mrow><mn>2</mn></msup><mtext>?</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><msup><mrow><mn>10</mn></mrow><mn>7</mn></msup><mspace width="0.2em"/><msup><mrow><mtext>N/m</mtext></mrow><mn>2</mn></msup><mtext>?</mtext></mrow></annotation-xml></semantics></math> Assume that the force is applied uniformly over the surface.</p>
+</div>
+<div data-type="solution" id="fs-id1163713247853">
+<p id="fs-id1163713450517">0.01%</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713433578">
+<div data-type="problem" id="fs-id1163713433580">
+<p id="fs-id1163713433582">Normal forces of magnitude <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>6</mn></msup><mtext>N</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>1.0</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><msup><mrow><mn>10</mn></mrow><mn>6</mn></msup><mtext>N</mtext></mrow></annotation-xml></semantics></math> are applied uniformly to a spherical surface enclosing a volume of a liquid. This causes the radius of the surface to decrease from 50.000 cm to 49.995 cm. What is the bulk modulus of the liquid?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163709786788">
+<div data-type="problem" id="fs-id1163709786790">
+<p id="fs-id1163709646387">During a walk on a rope, a tightrope walker creates a tension of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>3.94</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><mn>1</mn><msup><mn>0</mn><mn>3</mn></msup><mi>N</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>3.94</mn><mspace width="0.2em"/><mo>&#215;</mo><mspace width="0.2em"/><mn>1</mn><msup><mn>0</mn><mn>3</mn></msup><mi>N</mi></mrow></annotation-xml></semantics></math> in a wire that is stretched between two supporting poles that are 15.0 m apart. The wire has a diameter of 0.50 cm when it is not stretched. When the walker is on the wire in the middle between the poles the wire makes an angle of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>5.0</mn><mtext>&#176;</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>5.0</mn><mtext>&#176;</mtext></mrow></annotation-xml></semantics></math> below the horizontal. How much does this tension stretch the steel wire when the walker is this position?</p>
+</div>
+<div data-type="solution" id="fs-id1163709766552">
+<p id="fs-id1163709766554">1.44 cm</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713246837">
+<div data-type="problem" id="fs-id1163713172221">
+<p id="fs-id1163713172223">When using a pencil eraser, you exert a vertical force of 6.00 N at a distance of 2.00 cm from the hardwood-eraser joint. The pencil is 6.00 mm in diameter and is held at an angle of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><semantics><mrow><mrow><mn>20.0</mn><mtext>&#176;</mtext></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mn>20.0</mn><mtext>&#176;</mtext></mrow></annotation-xml></semantics></math> to the horizontal. (a) By how much does the wood flex perpendicular to its length? (b) How much is it compressed lengthwise?</p>
+</div>
+</div>
+<div data-type="exercise" id="fs-id1163713052308">
+<div data-type="problem" id="fs-id1163709786574">
+<p id="fs-id1163709786576">Normal forces are applied uniformly over the surface of a spherical volume of water whose radius is 20.0 cm. If the pressure on the surface is increased by 200 MPa, by how much does the radius of the sphere decrease?</p>
+</div>
+<div data-type="solution" id="fs-id1163713365459">
+<p id="fs-id1163709786578">0.63 cm</p>
+</div>
+</div>
+</section>
+ <div data-type="glossary"><h3 data-type="glossary-title">Glossary</h3>
+<dl id="fs-id1163713087228">
+<dt>bulk modulus</dt>
+<dd id="fs-id1163709743397">elastic modulus for the bulk stress</dd>
+</dl>
+<dl id="fs-id1163709743401">
+<dt>bulk strain</dt>
+<dd id="fs-id1163713262677">(or <strong data-effect="bold">volume strain</strong>) strain under the bulk stress, given as fractional change in volume</dd>
+</dl>
+<dl id="fs-id1163713434462">
+<dt>bulk stress</dt>
+<dd id="fs-id1163713355210">(or <strong data-effect="bold">volume stress</strong>) stress caused by compressive forces, in all directions</dd>
+</dl>
+<dl id="fs-id1163713249621">
+<dt>compressibility</dt>
+<dd id="fs-id1163713486986">reciprocal of the bulk modulus</dd>
+</dl>
+<dl id="fs-id1163713486990">
+<dt>compressive strain</dt>
+<dd id="fs-id1163713199479">strain that occurs when forces are contracting an object, causing its shortening</dd>
+</dl>
+<dl id="fs-id1163713143355">
+<dt>compressive stress</dt>
+<dd id="fs-id1163713199122">stress caused by compressive forces, only in one direction</dd>
+</dl>
+<dl id="fs-id1163713199126">
+<dt>elastic modulus</dt>
+<dd id="fs-id1163709747183">proportionality constant in linear relation between stress and strain, in SI pascals</dd>
+</dl>
+<dl id="fs-id1163709828024">
+<dt>normal pressure</dt>
+<dd id="fs-id1163713433078">pressure of one atmosphere, serves as a reference level for pressure</dd>
+</dl>
+<dl id="fs-id1163713433082">
+<dt>pascal (Pa)</dt>
+<dd id="fs-id1163713487602">SI unit of stress, SI unit of pressure</dd>
+</dl>
+<dl id="fs-id1163713261863">
+<dt>pressure</dt>
+<dd id="fs-id1163713490870">force pressing in normal direction on a surface per the surface area, the bulk stress in fluids</dd>
+</dl>
+<dl id="fs-id1163713490874">
+<dt>shear modulus</dt>
+<dd id="fs-id1163713288480">elastic modulus for shear stress</dd>
+</dl>
+<dl id="fs-id1163713294973">
+<dt>shear strain</dt>
+<dd id="fs-id1163713285912">strain caused by shear stress</dd>
+</dl>
+<dl id="fs-id1163713285916">
+<dt>shear stress</dt>
+<dd id="fs-id1163709681303">stress caused by shearing forces</dd>
+</dl>
+<dl id="fs-id1163709704960">
+<dt>strain</dt>
+<dd id="fs-id1163709826792">dimensionless quantity that gives the amount of deformation of an object or medium under stress</dd>
+</dl>
+<dl id="fs-id1163709826796">
+<dt>stress</dt>
+<dd id="fs-id1163713262202">quantity that contains information about the magnitude of force causing deformation, defined as force per unit area</dd>
+</dl>
+<dl id="fs-id1163713052592">
+<dt>tensile strain</dt>
+<dd id="fs-id1163709831766">strain under tensile stress, given as fractional change in length, which occurs when forces are stretching an object, causing its elongation</dd>
+</dl>
+<dl id="fs-id1163713189396">
+<dt>tensile stress</dt>
+<dd id="fs-id1163709671279">stress caused by tensile forces, only in one direction, which occurs when forces are stretching an object, causing its elongation</dd>
+</dl>
+<dl id="fs-id1163709671285">
+<dt>Young&#8217;s modulus</dt>
+<dd id="fs-id1163713186236">elastic modulus for tensile or compressive stress</dd>
+</dl>
+</div></body>
+
+</html>
