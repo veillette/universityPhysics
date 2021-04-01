@@ -4,8 +4,7 @@
 <title>Electric Field</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml"
           mdml-version="0.5">
-  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
-       Changes to the metadata section in the source will not be saved. -->
+
   <md:repository>https://legacy.cnx.org/content</md:repository>
   <md:content-url>https://legacy.cnx.org/content/m58722/latest/</md:content-url>
   <md:content-id>m58722</md:content-id>
@@ -27,12 +26,7 @@
     <md:role type="licensor">cnxuniphysics</md:role>
   </md:roles>
   <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
-  <!-- For information on license requirements for use or modification, see license url in the
-       above <md:license> element.
-       For information on formatting required attribution, see the URL:
-         CONTENT_URL/content_info#cnx_cite_header
-       where CONTENT_URL is the value provided above in the <md:content-url> element.
-  -->
+
   <md:abstract><para>By the end of this section, you will be able to:</para><list>
 <item>Explain the purpose of the electric field concept</item>
 <item>Describe the properties of the electric field</item>
