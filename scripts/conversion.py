@@ -30,7 +30,7 @@ for mDirectory in allDirectories:
         imgMatch = imgRegexp.findall(line)
 
         if imgMatch:
-            newLine = re.sub(r'"/resources/(\w*)/','"', line)
+            newLine = re.sub(r'"','"', line)
             myHtmlFile.write(newLine)
         else:
             myHtmlFile.write(line)
